@@ -2,7 +2,7 @@
   "presets": ["react-native"],
   "env": {
     "production": {
-      "plugins": ["ignite-ignore-reactotron"]
+      "plugins": ["transform-remove-console", "ignite-ignore-reactotron"]
     }
   }
 }
