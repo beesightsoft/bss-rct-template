@@ -43,6 +43,7 @@ https://github.com/infinitered/ignite
 - Fonts (https://medium.com/p/ccc9aacf9e5e)
 - Env config (https://github.com/luggit/react-native-config)
 - Icon (https://github.com/dwmkerr/app-icon)
+- Version approach (https://medium.com/p/94b70da7612f)
 - Convention
 
 
