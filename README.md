@@ -44,6 +44,7 @@ https://github.com/infinitered/ignite
 - Env config (https://github.com/luggit/react-native-config)
 - Icon (https://github.com/dwmkerr/app-icon)
 - Version approach (https://medium.com/p/94b70da7612f)
+- Splash screen (https://github.com/crazycodeboy/react-native-splash-screen)
 - Convention
 
 
