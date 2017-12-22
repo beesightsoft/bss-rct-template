@@ -1,4 +1,4 @@
-package com.beesightsoftrct;
+package com.beesightsoft.rct;
 
 import com.facebook.react.ReactActivity;
 
