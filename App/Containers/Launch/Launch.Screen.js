@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { ScrollView, Text, Image, View } from 'react-native'
 import { Images } from '../../Themes/index'
+import SplashScreen from 'react-native-splash-screen'
 
 // Styles
 import styles from './Launch.Styles'
@@ -27,6 +28,8 @@ export default class LaunchScreen extends Component {
   }
 
   componentDidMount() {
+    SplashScreen.hide();
+
     setTimeout(() => {
       this.props.navigation.navigate('MainScreen', {})
     }, 2000)

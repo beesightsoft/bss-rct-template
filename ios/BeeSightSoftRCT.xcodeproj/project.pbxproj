@@ -42,6 +42,7 @@
 		6999B35F81A64EFDB1B6269A /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8119F06FA014D669113B29F /* FontAwesome.ttf */; };
 		69BEBE6B68C14EF59C87353C /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C9CC51FB9FB4B31AA1FEC5D /* Foundation.ttf */; };
 		715A959091D44160BBB22B2A /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E99892E8E79F4C8FA0A8E1EC /* Octicons.ttf */; };
+		787FE128CD1144FFAF016560 /* libSplashScreen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EABAE8F1D62746E08A9ABE27 /* libSplashScreen.a */; };
 		7F63B063CE87420CA93DAA4E /* libcxxreact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7041623542B492A9BAC85AD /* libcxxreact.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		8AE40CBD00A34C3CA06574A1 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 918929C6F6AF492DAC4B6045 /* Ionicons.ttf */; };
@@ -257,6 +258,13 @@
 			remoteGlobalIDString = EB2648DF1C7BE17A00B8F155;
 			remoteInfo = ReactNativeConfig;
 		};
+		C81E40EC1FED6C3E007DDB50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0143FFAF7B3A424BA0942007 /* SplashScreen.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D7682761D8E76B80014119E;
+			remoteInfo = SplashScreen;
+		};
 		C8B3971C1FECE4BE00853BC6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */;
@@ -353,6 +361,7 @@
 		00E356EE1AD99517003FC87E /* BeeSightSoftRCTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeeSightSoftRCTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* BeeSightSoftRCTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeeSightSoftRCTTests.m; sourceTree = "<group>"; };
+		0143FFAF7B3A424BA0942007 /* SplashScreen.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = SplashScreen.xcodeproj; path = "../node_modules/react-native-splash-screen/ios/SplashScreen.xcodeproj"; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* BeeSightSoftRCT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeeSightSoftRCT.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -400,6 +409,7 @@
 		D7041623542B492A9BAC85AD /* libcxxreact.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libcxxreact.a; sourceTree = "<group>"; };
 		DA61864F1DAB625E819E75BC /* Pods-BeeSightSoftRCT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeeSightSoftRCT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeeSightSoftRCT/Pods-BeeSightSoftRCT.debug.xcconfig"; sourceTree = "<group>"; };
 		E99892E8E79F4C8FA0A8E1EC /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/native-base/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		EABAE8F1D62746E08A9ABE27 /* libSplashScreen.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libSplashScreen.a; sourceTree = "<group>"; };
 		EF2A9B33EEA14DFF9E4B2EF8 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/native-base/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
 		F620A4F3777843E78EE63A26 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
 		F9BA35D071D049EB9B3859FA /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
@@ -439,6 +449,7 @@
 				7F63B063CE87420CA93DAA4E /* libcxxreact.a in Frameworks */,
 				EC5A73DE1D6C4EBD8B7E54E8 /* libjschelpers.a in Frameworks */,
 				520C1D510B62F48ED2742892 /* libPods-BeeSightSoftRCT.a in Frameworks */,
+				787FE128CD1144FFAF016560 /* libSplashScreen.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -628,6 +639,7 @@
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
 				9F734C515D70468AAA4B14B2 /* RNVectorIcons.xcodeproj */,
 				3CE92A5F88DB44A38532A316 /* RNI18n.xcodeproj */,
+				0143FFAF7B3A424BA0942007 /* SplashScreen.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -701,6 +713,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		C81E40E91FED6C3E007DDB50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C81E40ED1FED6C3E007DDB50 /* libSplashScreen.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		C8B396FB1FECC8E300853BC6 /* Recovered References */ = {
 			isa = PBXGroup;
 			children = (
@@ -709,6 +729,7 @@
 				2740A044979B4CD8A4AF433E /* libyoga.a */,
 				D7041623542B492A9BAC85AD /* libcxxreact.a */,
 				D1C87E0AD5B5430186048C2D /* libjschelpers.a */,
+				EABAE8F1D62746E08A9ABE27 /* libSplashScreen.a */,
 			);
 			name = "Recovered References";
 			sourceTree = "<group>";
@@ -861,6 +882,10 @@
 				{
 					ProductGroup = C8B397521FECE4BE00853BC6 /* Products */;
 					ProjectRef = 9F734C515D70468AAA4B14B2 /* RNVectorIcons.xcodeproj */;
+				},
+				{
+					ProductGroup = C81E40E91FED6C3E007DDB50 /* Products */;
+					ProjectRef = 0143FFAF7B3A424BA0942007 /* SplashScreen.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -1059,6 +1084,13 @@
 			fileType = archive.ar;
 			path = libReactNativeConfig.a;
 			remoteRef = C81E40551FED5B4D007DDB50 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C81E40ED1FED6C3E007DDB50 /* libSplashScreen.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSplashScreen.a;
+			remoteRef = C81E40EC1FED6C3E007DDB50 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		C8B3971D1FECE4BE00853BC6 /* libRCTBlob-tvOS.a */ = {
@@ -1310,11 +1342,15 @@
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 					"$(SRCROOT)/../node_modules/react-native-i18n/RNI18n",
+					"$(SRCROOT)/../node_modules/react-native-splash-screen/ios",
 				);
 				INFOPLIST_FILE = BeeSightSoftRCTTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1333,11 +1369,15 @@
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 					"$(SRCROOT)/../node_modules/react-native-i18n/RNI18n",
+					"$(SRCROOT)/../node_modules/react-native-splash-screen/ios",
 				);
 				INFOPLIST_FILE = BeeSightSoftRCTTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1359,6 +1399,7 @@
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 					"$(SRCROOT)/../node_modules/react-native-i18n/RNI18n",
+					"$(SRCROOT)/../node_modules/react-native-splash-screen/ios",
 				);
 				INFOPLIST_FILE = BeeSightSoftRCT/Info.plist;
 				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-traditional";
@@ -1387,6 +1428,7 @@
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 					"$(SRCROOT)/../node_modules/react-native-i18n/RNI18n",
+					"$(SRCROOT)/../node_modules/react-native-splash-screen/ios",
 				);
 				INFOPLIST_FILE = BeeSightSoftRCT/Info.plist;
 				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-traditional";

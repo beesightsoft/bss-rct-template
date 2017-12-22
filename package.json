@@ -42,6 +42,7 @@
     "react-native-animatable": "^1.2.4",
     "react-native-config": "^0.10.0",
     "react-native-i18n": "1.0.0",
+    "react-native-splash-screen": "^3.0.6",
     "react-native-vector-icons": "4.3.0",
     "react-navigation": "^1.0.0-beta.21",
     "react-redux": "^5.0.6",
