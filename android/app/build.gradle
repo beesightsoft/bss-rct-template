@@ -1,4 +1,5 @@
 apply plugin: "com.android.application"
+apply from: project(':react-native-config').projectDir.getPath() + "/dotenv.gradle"
 
 import com.android.build.OutputFile
 
@@ -132,11 +133,18 @@ android {
                 output.versionCodeOverride =
                         versionCodes.get(abi) * 1048576 + defaultConfig.versionCode
             }
+
+            def APK_NAME = variant.name.capitalize() + ".apk"
+            output.outputFile = new File(
+                output.outputFile.parent,
+                output.outputFile.name.replace(output.outputFile.name, APK_NAME))
+
         }
     }
 }
 
 dependencies {
+    compile project(':react-native-config')
     compile project(':react-native-i18n')
     compile project(':react-native-vector-icons')
     compile fileTree(dir: "libs", include: ["*.jar"])

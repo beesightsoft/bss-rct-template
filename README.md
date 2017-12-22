@@ -36,3 +36,14 @@ https://github.com/infinitered/ignite
     * Run Genymotion
     * run `react-native run-android`
 
+## Things to Include
+- Ignite (https://infinite.red/ignite full default package)
+- Reactotron (https://infinite.red/reactotron)
+- Nativebase (https://nativebase.io/)
+- Fonts (https://medium.com/p/ccc9aacf9e5e)
+- Env config (https://github.com/luggit/react-native-config)
+- Icon (https://github.com/dwmkerr/app-icon)
+- Convention
+
+
+
