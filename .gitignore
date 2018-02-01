@@ -58,3 +58,5 @@ android/app/src/main/gen/
 ios/Pods
 Podfile.lock
 ios/*.xcworkspace
+package-lock.json
+yarn.lock
