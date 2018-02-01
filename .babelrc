@@ -1,8 +1,13 @@
 {
-  "presets": ["react-native"],
+  "presets": [
+    "react-native"
+  ],
   "env": {
     "production": {
-      "plugins": ["transform-remove-console", "ignite-ignore-reactotron"]
+      "plugins": [
+        "transform-remove-console",
+        "ignite-ignore-reactotron"
+      ]
     }
   }
 }
