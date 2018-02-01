@@ -1,6 +1,6 @@
-import React, {Component} from 'react'
-import {Dimensions, ScrollView, Text, Image, View, StyleSheet} from 'react-native'
-import {Container, Header, Left, Body, Right, Button, Icon, Title, Content} from 'native-base'
+import React, { Component } from 'react'
+import { Dimensions, ScrollView, Text, Image, View, StyleSheet } from 'react-native'
+import { Container, Header, Left, Body, Right, Button, Icon, Title, Content } from 'native-base'
 
 import MainStyles from './Main.Styles'
 
@@ -11,7 +11,7 @@ export default class MainScreen extends Component {
       <Container>
         <Header>
           <Body>
-          <Title>MainScreen</Title>
+            <Title>MainScreen</Title>
           </Body>
         </Header>
         <Content>

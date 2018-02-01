@@ -7,7 +7,7 @@ import SplashScreen from 'react-native-splash-screen'
 import styles from './Launch.Styles'
 
 export default class LaunchScreen extends Component {
-  render () {
+  render() {
     return (
       <View style={styles.mainContainer}>
         <ScrollView style={styles.container}>
