@@ -26,15 +26,25 @@
   "rules": {
     "indent": [
       "error",
-      2
-    ],
-    "linebreak-style": [
-      "error",
-      "unix"
+      2,
+      {
+        "SwitchCase": 1,
+        "MemberExpression": 1,
+        "FunctionDeclaration": {"parameters": "first"},
+        "VariableDeclarator": { "var": 2, "let": 2, "const": 3 },
+        "ArrayExpression": "first",
+        "ObjectExpression": "first",
+        "ImportDeclaration": "first",
+        "flatTernaryExpressions": true
+      }
     ],
     "semi": [
       "error",
       "never"
+    ],
+    "linebreak-style": [
+      "error",
+      "unix"
     ],
     "quotes": [
       "error",
