@@ -127,5 +127,7 @@
   },
   "keywords": [
     "bee"
-  ]
+  ],
+  "author": "beesightsoft",
+  "license": "MIT"
 }
