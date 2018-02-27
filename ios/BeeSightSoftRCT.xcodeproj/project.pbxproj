@@ -807,7 +807,8 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = 9Q7CB75TBD;
+						DevelopmentTeam = 4KLF9TSX4R;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -1392,9 +1393,10 @@
 			baseConfigurationReference = DA61864F1DAB625E819E75BC /* Pods-BeeSightSoftRCT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = 9Q7CB75TBD;
+				DEVELOPMENT_TEAM = 4KLF9TSX4R;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
@@ -1413,6 +1415,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.beesightsoft.rct;
 				PRODUCT_NAME = BeeSightSoftRCT;
+				PROVISIONING_PROFILE = "668eab74-6a88-45eb-940a-da7af11a707b";
+				PROVISIONING_PROFILE_SPECIFIER = "iOS Development Wildcard";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -1422,8 +1426,9 @@
 			baseConfigurationReference = 2580DB08AC4EFDB57001E557 /* Pods-BeeSightSoftRCT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9Q7CB75TBD;
+				DEVELOPMENT_TEAM = 4KLF9TSX4R;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
@@ -1442,6 +1447,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.beesightsoft.rct;
 				PRODUCT_NAME = BeeSightSoftRCT;
+				PROVISIONING_PROFILE = "668eab74-6a88-45eb-940a-da7af11a707b";
+				PROVISIONING_PROFILE_SPECIFIER = "iOS Development Wildcard";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;

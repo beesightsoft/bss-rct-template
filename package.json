@@ -23,9 +23,9 @@
     "fixcode": "standard --fix",
     "git-hook": "npm run lint -s && npm run test -s",
     "postinstall": "rndebugger-open",
-    "ios-version": "./ios-version.sh",
-    "ios-release": "./ios-release.sh",
-    "android-release": "./android-release.sh"
+    "ios-version": "./Script/src/ios-version.sh",
+    "ios-release": "./Script/src/ios-release.sh && node ./Script/server/index.js",
+    "android-release": "./Script/src/android-release.sh && node ./Script/server/index.js"
   },
   "rnpm": {
     "assets": [
@@ -89,7 +89,10 @@
     "reactotron-redux": "^1.13.0",
     "reactotron-redux-saga": "^1.13.0",
     "snazzy": "^7.0.0",
-    "standard": "10.0.2"
+    "standard": "10.0.2",
+    "express": "^4.16.2",
+    "open": "0.0.5",
+    "request": "^2.83.0"
   },
   "jest": {
     "testMatch": [

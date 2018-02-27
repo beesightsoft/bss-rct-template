@@ -62,3 +62,6 @@ package-lock.json
 yarn.lock
 .vscode/.react
 ios-config.json
+Script/**/*.apk
+Script/**/*.ipa
+Script/**/*.plist

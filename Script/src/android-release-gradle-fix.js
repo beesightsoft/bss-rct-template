@@ -1,8 +1,10 @@
 const fs = require('fs')
 
 try {
-        var curDir = process.cwd()
-        var file = `${curDir}/node_modules/react-native/react.gradle`
+        var curDir = __dirname
+        var rootDir = process.cwd()
+
+        var file = `${rootDir}/node_modules/react-native/react.gradle`
         var dataFix = fs.readFileSync(`${curDir}/android-react-gradle-fix`, 'utf8')
         var data = fs.readFileSync(file, 'utf8')
 
