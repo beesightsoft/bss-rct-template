@@ -58,7 +58,6 @@ ios/Pods
 Podfile.lock
 ios/*.xcworkspace
 
-package-lock.json
 yarn.lock
 .vscode/.react
 ios-config.json
