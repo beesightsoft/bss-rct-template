@@ -22,10 +22,10 @@
     "lintdiff": "git diff --name-only --cached --relative | grep '\\.js$' | xargs standard | snazzy",
     "fixcode": "standard --fix",
     "git-hook": "npm run lint -s && npm run test -s",
-    "postinstall": "rndebugger-open",
     "ios-version": "./Script/src/ios-version.sh",
     "ios-release": "./Script/src/ios-release.sh && node ./Script/server/index.js",
-    "android-release": "./Script/src/android-release.sh && node ./Script/server/index.js"
+    "android-release": "./Script/src/android-release.sh && node ./Script/server/index.js",
+    "postinstall": "node ./Script/src/android-release-gradle-fix.js && node ./Script/src/android-gradle-fix.js"
   },
   "rnpm": {
     "assets": [
