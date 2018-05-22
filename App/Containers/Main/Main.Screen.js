@@ -3,7 +3,7 @@ import { Dimensions, ScrollView, Text, Image, View, StyleSheet } from 'react-nat
 import { Container, Header, Left, Body, Right, Button, Icon, Title, Content } from 'native-base'
 
 import MainStyles from './Main.Styles'
-
+import Config from 'react-native-config'
 export default class MainScreen extends Component {
 
   render() {
@@ -11,14 +11,16 @@ export default class MainScreen extends Component {
       <Container>
         <Header>
           <Body>
-            <Title>MainScreen</Title>
+            <Title>{Config.ROOT_URL}</Title>
           </Body>
         </Header>
         <Content>
 
           <View style={MainStyles.container}>
             <View style={MainStyles.center}>
-              <Text>This is main</Text>
+              <Text style={{
+                fontFamily: "Roboto-Light"
+                }}>This is main</Text>
             </View>
           </View>
 

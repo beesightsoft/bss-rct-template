@@ -265,6 +265,20 @@
 			remoteGlobalIDString = 3D7682761D8E76B80014119E;
 			remoteInfo = SplashScreen;
 		};
+		C829527420B3D5B0004A91F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EBF21BDC1FC498900052F4D5;
+			remoteInfo = jsinspector;
+		};
+		C829527620B3D5B0004A91F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EBF21BFA1FC4989A0052F4D5;
+			remoteInfo = "jsinspector-tvOS";
+		};
 		C8B3971C1FECE4BE00853BC6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */;
@@ -560,6 +574,8 @@
 				3DAD3EAB1DF850E9000B6D8A /* libcxxreact.a */,
 				3DAD3EAD1DF850E9000B6D8A /* libjschelpers.a */,
 				3DAD3EAF1DF850E9000B6D8A /* libjschelpers.a */,
+				C829527520B3D5B0004A91F1 /* libjsinspector.a */,
+				C829527720B3D5B0004A91F1 /* libjsinspector-tvOS.a */,
 				C8B397411FECE4BE00853BC6 /* libthird-party.a */,
 				C8B397431FECE4BE00853BC6 /* libthird-party.a */,
 				C8B397451FECE4BE00853BC6 /* libdouble-conversion.a */,
@@ -1092,6 +1108,20 @@
 			fileType = archive.ar;
 			path = libSplashScreen.a;
 			remoteRef = C81E40EC1FED6C3E007DDB50 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C829527520B3D5B0004A91F1 /* libjsinspector.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjsinspector.a;
+			remoteRef = C829527420B3D5B0004A91F1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C829527720B3D5B0004A91F1 /* libjsinspector-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libjsinspector-tvOS.a";
+			remoteRef = C829527620B3D5B0004A91F1 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		C8B3971D1FECE4BE00853BC6 /* libRCTBlob-tvOS.a */ = {
