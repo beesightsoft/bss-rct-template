@@ -1,4 +1,5 @@
 import I18n from 'react-native-i18n'
+import I18nn from './I18n'
 
 const missingTranslationRegex = /^\[missing ".*" translation\]$/
 
@@ -27,5 +28,6 @@ const translateOrFallback = initialMsg => {
 
 export default {
   ...I18n,
+  ...I18nn,
   t: translateOrFallback
 }

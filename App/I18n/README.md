@@ -16,6 +16,9 @@ TODO: Real usage example.
 
     import I18n from 'App/I18n';
 
+    //import I18n from '../../I18n/'
+    //I18n.initLanguage('vi')
+
     render() {
     ...
     { I18n.t('welcome') }
