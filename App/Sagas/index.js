@@ -3,8 +3,8 @@ import API from '../Services/Api'
 import FixtureAPI from '../Services/FixtureApi'
 import DebugConfig from '../Config/DebugConfig'
 
-/* ------------ ACTION ------------ */
-// Add action here 
+/* ------------ REDUX ------------ */
+// Add REDUX here 
 
 /* ------------- Types ------------- */
 
