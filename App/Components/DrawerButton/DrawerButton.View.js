@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import { Text, TouchableOpacity } from 'react-native'
-import styles from './Styles/DrawerButtonStyles'
+import styles from './DrawerButton.Styles'
 import ExamplesRegistry from '../Services/ExamplesRegistry'
 
 // Note that this file (App/Components/DrawerButton) needs to be

@@ -1,7 +1,7 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react-native'
 
-import FullButton from './FullButton'
+import FullButton from './FullButton.View'
 
 storiesOf('FullButton')
   .add('Default', () => (

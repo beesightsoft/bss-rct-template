@@ -64,3 +64,4 @@ ios-config.json
 Script/**/*.apk
 Script/**/*.ipa
 Script/**/*.plist
+/etc

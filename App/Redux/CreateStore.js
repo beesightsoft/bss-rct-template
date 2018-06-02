@@ -3,7 +3,8 @@ import Rehydration from '../Services/Rehydration'
 import ReduxPersist from '../Config/ReduxPersist'
 import Config from '../Config/DebugConfig'
 import createSagaMiddleware from 'redux-saga'
-import ScreenTracking from './ScreenTrackingMiddleware'
+import MiddlewareList from '../Middleware/'
+// import ScreenTracking from '../Middleware/ScreenTrackingMiddleware'
 
 // creates the store
 export default (rootReducer, rootSaga) => {
@@ -13,8 +14,9 @@ export default (rootReducer, rootSaga) => {
   const enhancers = []
 
   /* ------------- Analytics Middleware ------------- */
-  middleware.push(ScreenTracking)
-
+  Array.prototype.push.apply(middleware, MiddlewareList)
+  // middleware.push(ScreenTracking)
+  
   /* ------------- Saga Middleware ------------- */
 
   const sagaMonitor = Config.useReactotron ? console.tron.createSagaMonitor() : null
@@ -23,11 +25,12 @@ export default (rootReducer, rootSaga) => {
 
   /* ------------- Assemble Middleware ------------- */
 
-  enhancers.push(compose(applyMiddleware(...middleware),
-    global.reduxNativeDevTools ?
-      global.reduxNativeDevTools(/*options*/) :
-      noop => noop
-  ));
+  enhancers.push(
+    compose(
+      applyMiddleware(...middleware),
+      global.reduxNativeDevTools ? global.reduxNativeDevTools(/*options*/) : noop => noop
+    )
+  )
 
   // if Reactotron is enabled (default for __DEV__), we'll create the store through Reactotron
   const createAppropriateStore = Config.useReactotron ? console.tron.createStore : createStore
@@ -42,7 +45,7 @@ export default (rootReducer, rootSaga) => {
   let sagasManager = sagaMiddleware.run(rootSaga)
 
   if (global.reduxNativeDevTools) {
-    global.reduxNativeDevTools.updateStore(store);
+    global.reduxNativeDevTools.updateStore(store)
   }
 
   return {
