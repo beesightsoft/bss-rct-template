@@ -13,7 +13,8 @@ const PrimaryNav = StackNavigator({
   headerMode: 'none',
   initialRouteName: 'LaunchScreen',
   navigationOptions: {
-    headerStyle: styles.header
+    headerStyle: styles.header,
+    gesturesEnabled: false,
   }
 })
 
