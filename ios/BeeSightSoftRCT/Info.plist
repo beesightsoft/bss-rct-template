@@ -37,8 +37,6 @@
       </dict>
     </dict>
   </dict>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Entypo.ttf</string>
@@ -79,8 +77,6 @@
 	<string>The app need Calendars is accessed for the first time</string>
 	<key>NSCameraUsageDescription</key>
 	<string>The app need Camera is accessed for the first time</string>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>The app need Location Always is accessed for the first time</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>The app need Location When In Use is accessed for the first time</string>
 	<key>NSMicrophoneUsageDescription</key>
