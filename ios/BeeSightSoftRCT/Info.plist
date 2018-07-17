@@ -89,5 +89,7 @@
 	<string>The app need Photo library is accessed for the first time</string>
 	<key>NSSpeechRecognitionUsageDescription</key>
 	<string>The app need Speech recognition is accessed for the first time</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
 </dict>
 </plist>
