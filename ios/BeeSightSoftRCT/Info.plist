@@ -17,26 +17,48 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>0.2.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-  <key>NSAppTransportSecurity</key>
-  <dict>
-    <key>NSAllowsArbitraryLoads</key>
-    <true/>
-    <key>NSExceptionDomains</key>
-    <dict>
-      <key>localhost</key>
-      <dict>
-        <key>NSExceptionAllowsInsecureHTTPLoads</key>
-        <true/>
-      </dict>
-    </dict>
-  </dict>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>localhost</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>The app need Apple music is accessed for the first time</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>The app need Bluetooth is accessed for the first time</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>The app need Calendars is accessed for the first time</string>
+	<key>NSCameraUsageDescription</key>
+	<string>The app need Camera is accessed for the first time</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>The app need Location When In Use is accessed for the first time</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>The app need Microsphone is accessed for the first time</string>
+	<key>NSMotionUsageDescription</key>
+	<string>The app need Motion is accessed for the first time</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>The app need Photo library addition is accessed for the first time</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>The app need Photo library is accessed for the first time</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>The app need Speech recognition is accessed for the first time</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Entypo.ttf</string>
@@ -68,28 +90,6 @@
 		<string>UIInterfaceOrientationPortrait</string>
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
-	<false/>
-	<key>NSAppleMusicUsageDescription</key>
-	<string>The app need Apple music is accessed for the first time</string>
-	<key>NSBluetoothPeripheralUsageDescription</key>
-	<string>The app need Bluetooth is accessed for the first time</string>
-	<key>NSCalendarsUsageDescription</key>
-	<string>The app need Calendars is accessed for the first time</string>
-	<key>NSCameraUsageDescription</key>
-	<string>The app need Camera is accessed for the first time</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>The app need Location When In Use is accessed for the first time</string>
-	<key>NSMicrophoneUsageDescription</key>
-	<string>The app need Microsphone is accessed for the first time</string>
-	<key>NSMotionUsageDescription</key>
-	<string>The app need Motion is accessed for the first time</string>
-	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>The app need Photo library addition is accessed for the first time</string>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>The app need Photo library is accessed for the first time</string>
-	<key>NSSpeechRecognitionUsageDescription</key>
-	<string>The app need Speech recognition is accessed for the first time</string>
-	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 </dict>
 </plist>
