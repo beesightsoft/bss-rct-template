@@ -1413,7 +1413,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.beesightsoft.rct;
 				PRODUCT_NAME = BeeSightSoftRCT;
-				PROVISIONING_PROFILE = "668eab74-6a88-45eb-940a-da7af11a707b";
+				PROVISIONING_PROFILE = "d0c344fe-1acf-4bfb-bf99-34ee3f393b02";
 				PROVISIONING_PROFILE_SPECIFIER = "iOS Development Wildcard";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -1445,7 +1445,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.beesightsoft.rct;
 				PRODUCT_NAME = BeeSightSoftRCT;
-				PROVISIONING_PROFILE = "668eab74-6a88-45eb-940a-da7af11a707b";
+				PROVISIONING_PROFILE = "d0c344fe-1acf-4bfb-bf99-34ee3f393b02";
 				PROVISIONING_PROFILE_SPECIFIER = "iOS Development Wildcard";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
