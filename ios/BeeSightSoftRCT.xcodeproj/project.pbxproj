@@ -1415,7 +1415,7 @@
 				PRODUCT_NAME = BeeSightSoftRCT;
 				PROVISIONING_PROFILE = "d0c344fe-1acf-4bfb-bf99-34ee3f393b02";
 				PROVISIONING_PROFILE_SPECIFIER = "iOS Development Wildcard";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -1448,7 +1448,7 @@
 				PRODUCT_NAME = BeeSightSoftRCT;
 				PROVISIONING_PROFILE = "d0c344fe-1acf-4bfb-bf99-34ee3f393b02";
 				PROVISIONING_PROFILE_SPECIFIER = "iOS Development Wildcard";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
