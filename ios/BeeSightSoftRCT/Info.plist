@@ -50,7 +50,7 @@
 	<key>NSCameraUsageDescription</key>
 	<string>The app need Camera is accessed for the first time</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>The app need get your current location for distance calculation with specific activity</string>
+	<string>The app need Your Location is accessed for the first time</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>The app need Microphone is accessed for the first time</string>
 	<key>NSMotionUsageDescription</key>
