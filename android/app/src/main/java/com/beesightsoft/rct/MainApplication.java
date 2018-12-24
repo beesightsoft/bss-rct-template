@@ -1,6 +1,8 @@
 package com.beesightsoft.rct;
 
 import android.app.Application;
+import android.content.Context;
+import android.support.multidex.MultiDex;
 
 import com.facebook.react.ReactApplication;
 import org.devio.rn.splashscreen.SplashScreenReactPackage;
@@ -43,6 +45,12 @@ public class MainApplication extends Application implements ReactApplication {
   @Override
   public ReactNativeHost getReactNativeHost() {
     return mReactNativeHost;
+  }
+
+  @Override
+  protected void attachBaseContext(Context base) {
+    MultiDex.install(this);
+    super.attachBaseContext(base);
   }
 
   @Override
