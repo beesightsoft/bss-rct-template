@@ -2,7 +2,7 @@
 
 import I18nn from '../I18n/I18n'
 
-I18nn.initial()
+I18nn.initial();
 
 export default {
   // font scaling override - RN default is on

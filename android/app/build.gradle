@@ -180,6 +180,7 @@ android {
 }
 
 dependencies {
+    compile project(':react-native-gesture-handler')
     implementation 'com.android.support:multidex:1.0.3'
     compile project(':react-native-splash-screen')
     compile project(':react-native-config')

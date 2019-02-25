@@ -1,11 +1,11 @@
-import { StackNavigator } from 'react-navigation'
+import { createStackNavigator, createAppContainer } from 'react-navigation'
 import LaunchScreen from '../Containers/Launch/Launch.Screen'
 import MainScreen from '../Containers/Main/Main.Screen'
 
 import styles from './Styles/NavigationStyles'
 
 // Manifest of possible screens
-const PrimaryNav = StackNavigator({
+const PrimaryNav = createStackNavigator({
   LaunchScreen: { screen: LaunchScreen },
   MainScreen: {screen: MainScreen}
 }, {
@@ -14,8 +14,8 @@ const PrimaryNav = StackNavigator({
   initialRouteName: 'LaunchScreen',
   navigationOptions: {
     headerStyle: styles.header,
-    gesturesEnabled: false,
+    gesturesEnabled: false
   }
-})
+});
 
-export default PrimaryNav
+export default createAppContainer(PrimaryNav)

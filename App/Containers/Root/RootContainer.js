@@ -7,6 +7,7 @@ import ReduxPersist from '../../Config/ReduxPersist'
 
 // Styles
 import styles from './RootContainerStyles'
+import SplashScreen from "react-native-splash-screen";
 
 class RootContainer extends Component {
   componentDidMount () {
@@ -14,6 +15,7 @@ class RootContainer extends Component {
     if (!ReduxPersist.active) {
       this.props.startup()
     }
+    SplashScreen.hide();
   }
 
   render () {

@@ -15,6 +15,6 @@ const REDUX_PERSIST = {
     // whitelist: [],
     transforms: [immutablePersistenceTransform]
   }
-}
+};
 
 export default REDUX_PERSIST
