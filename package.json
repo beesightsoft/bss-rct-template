@@ -1,6 +1,6 @@
 {
   "name": "BeeSightSoftRCT",
-  "version": "0.2.1",
+  "version": "0.0.2",
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
@@ -138,8 +138,10 @@
     "url": "git+https://github.com/beesightsoft/bss-rct-template.git"
   },
   "keywords": [
-    "bee"
+    "bee",
+    "beesight",
+    "beesightsoft"
   ],
-  "author": "beesightsoft",
+  "author": "Beesight Soft",
   "license": "MIT"
 }
