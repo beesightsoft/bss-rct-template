@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import { View, Text } from 'react-native'
+import { Text, View } from 'react-native'
 import styles from './AlertMessage.Styles'
 
 export default class AlertMessage extends Component {

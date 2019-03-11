@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import { TouchableOpacity, Text } from 'react-native'
+import { Text, TouchableOpacity } from 'react-native'
 import styles from './FullButton.Styles'
 import ExamplesRegistry from '../Services/ExamplesRegistry'
 

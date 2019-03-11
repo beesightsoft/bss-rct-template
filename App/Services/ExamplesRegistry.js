@@ -3,12 +3,23 @@ import { Text, View } from 'react-native'
 import R from 'ramda'
 import { ApplicationStyles } from '../Themes'
 import DebugConfig from '../Config/DebugConfig'
+
 let globalComponentExamplesRegistry = []
 let globalPluginExamplesRegistry = []
 
-export const addComponentExample = (title, usage = () => {}) => { if (DebugConfig.includeExamples) globalComponentExamplesRegistry.push({title, usage}) } // eslint-disable-line
+export const addComponentExample = (title, usage = () => {}) => {
+  if (DebugConfig.includeExamples) globalComponentExamplesRegistry.push({
+    title,
+    usage
+  })
+} // eslint-disable-line
 
-export const addPluginExample = (title, usage = () => {}) => { if (DebugConfig.includeExamples) globalPluginExamplesRegistry.push({title, usage}) } // eslint-disable-line
+export const addPluginExample = (title, usage = () => {}) => {
+  if (DebugConfig.includeExamples) globalPluginExamplesRegistry.push({
+    title,
+    usage
+  })
+} // eslint-disable-line
 
 const renderComponentExample = (example) => {
   return (

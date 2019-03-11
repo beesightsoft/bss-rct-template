@@ -4,7 +4,7 @@ import AppConfig from './AppConfig'
 
 // Allow/disallow font-scaling in app
 // react native 0.57.8
-Text.allowFontScaling = AppConfig.allowTextFontScaling;
+Text.allowFontScaling = AppConfig.allowTextFontScaling
 
 if (__DEV__) {
   // If ReactNative's yellow box warnings are too much, it is possible to turn

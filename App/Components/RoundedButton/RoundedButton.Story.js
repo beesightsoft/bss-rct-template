@@ -11,6 +11,6 @@ storiesOf('RoundedButton')
   ))
   .add('Text as children', () => (
     <RoundedButton>
-        Hello from the children!
+      Hello from the children!
     </RoundedButton>
   ))

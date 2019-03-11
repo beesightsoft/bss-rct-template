@@ -1,13 +1,12 @@
 import React, { Component } from 'react'
-import { View, StatusBar } from 'react-native'
+import { StatusBar, View } from 'react-native'
 import ReduxNavigation from '../../Navigation/ReduxNavigation'
 import { connect } from 'react-redux'
 import StartupActions from '../../Redux/StartupRedux'
 import ReduxPersist from '../../Config/ReduxPersist'
-
 // Styles
 import styles from './RootContainerStyles'
-import SplashScreen from "react-native-splash-screen";
+import SplashScreen from 'react-native-splash-screen'
 
 class RootContainer extends Component {
   componentDidMount () {
@@ -15,14 +14,14 @@ class RootContainer extends Component {
     if (!ReduxPersist.active) {
       this.props.startup()
     }
-    SplashScreen.hide();
+    SplashScreen.hide()
   }
 
   render () {
     return (
       <View style={styles.applicationView}>
-        <StatusBar barStyle='light-content' />
-        <ReduxNavigation />
+        <StatusBar barStyle='light-content'/>
+        <ReduxNavigation/>
       </View>
     )
   }

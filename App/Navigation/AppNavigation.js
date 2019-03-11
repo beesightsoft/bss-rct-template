@@ -1,4 +1,4 @@
-import { createStackNavigator, createAppContainer } from 'react-navigation'
+import { createAppContainer, createStackNavigator } from 'react-navigation'
 import LaunchScreen from '../Containers/Launch/Launch.Screen'
 import MainScreen from '../Containers/Main/Main.Screen'
 
@@ -7,7 +7,7 @@ import styles from './Styles/NavigationStyles'
 // Manifest of possible screens
 const PrimaryNav = createStackNavigator({
   LaunchScreen: { screen: LaunchScreen },
-  MainScreen: {screen: MainScreen}
+  MainScreen: { screen: MainScreen }
 }, {
   // Default config for all screens
   headerMode: 'none',
@@ -16,6 +16,6 @@ const PrimaryNav = createStackNavigator({
     headerStyle: styles.header,
     gesturesEnabled: false
   }
-});
+})
 
 export default createAppContainer(PrimaryNav)
