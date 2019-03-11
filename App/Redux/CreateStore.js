@@ -4,7 +4,7 @@ import ReduxPersist from '../Config/ReduxPersist'
 import Config from '../Config/DebugConfig'
 import createSagaMiddleware from 'redux-saga'
 import MiddlewareList from '../Middleware/'
-// import ScreenTracking from '../Middleware/ScreenTrackingMiddleware'
+import ScreenTracking from '../Middleware/ScreenTrackingMiddleware'
 import { createReactNavigationReduxMiddleware } from 'react-navigation-redux-helpers'
 import { composeWithDevTools } from 'redux-devtools-extension/developmentOnly'
 
@@ -24,7 +24,7 @@ export default (rootReducer, rootSaga) => {
 
   /* ------------- Analytics Middleware ------------- */
   Array.prototype.push.apply(middleware, MiddlewareList)
-  // middleware.push(ScreenTracking)
+  middleware.push(ScreenTracking)
 
   /* ------------- Saga Middleware ------------- */
 

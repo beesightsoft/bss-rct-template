@@ -7,7 +7,7 @@ import sagaPlugin from 'reactotron-redux-saga'
 if (Config.useReactotron) {
   // https://github.com/infinitered/reactotron for more options!
   Reactotron
-    .configure({ name: 'Ignite App' })
+    .configure({ name: 'RCT App' })
     .useReactNative()
     .use(reduxPlugin({ onRestore: Immutable }))
     .use(sagaPlugin())
@@ -19,4 +19,6 @@ if (Config.useReactotron) {
   // Totally hacky, but this allows you to not both importing reactotron-react-native
   // on every file.  This is just DEV mode, so no big deal.
   console.tron = Reactotron
+} else {
+  console.tron = console.log
 }
