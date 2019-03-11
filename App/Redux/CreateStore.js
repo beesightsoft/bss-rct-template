@@ -6,6 +6,7 @@ import createSagaMiddleware from 'redux-saga'
 import MiddlewareList from '../Middleware/'
 // import ScreenTracking from '../Middleware/ScreenTrackingMiddleware'
 import { createReactNavigationReduxMiddleware } from 'react-navigation-redux-helpers'
+import { composeWithDevTools } from 'redux-devtools-extension/developmentOnly'
 
 // creates the store
 export default (rootReducer, rootSaga) => {
@@ -34,9 +35,8 @@ export default (rootReducer, rootSaga) => {
   /* ------------- Assemble Middleware ------------- */
 
   enhancers.push(
-    compose(
+    composeWithDevTools(
       applyMiddleware(...middleware),
-      global.reduxNativeDevTools ? global.reduxNativeDevTools(/*options*/) : noop => noop
     )
   )
 
@@ -51,10 +51,6 @@ export default (rootReducer, rootSaga) => {
 
   // kick off root saga
   let sagasManager = sagaMiddleware.run(rootSaga)
-
-  if (global.reduxNativeDevTools) {
-    global.reduxNativeDevTools.updateStore(store)
-  }
 
   return {
     store,
